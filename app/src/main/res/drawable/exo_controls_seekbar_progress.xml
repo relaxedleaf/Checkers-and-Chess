@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#CCCCCC" /> <!-- Change color as needed -->
+        </shape>
+    </item>
+    <!-- Progress -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FF0000" /> <!-- Change color as needed -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

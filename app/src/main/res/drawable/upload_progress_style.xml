@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/progressBar">
+        <scale android:useIntrinsicSizeAsMinimum="true"
+            android:scaleWidth="100%"
+            android:drawable="@drawable/ic_sendmsg"
+            />
+
+    </item>
+
+</layer-list>

@@ -1,96 +1,26 @@
 {
   "project_info": {
-    "project_number": "925942547210",
-    "firebase_url": "https://checkers-and-chess.firebaseio.com",
-    "project_id": "checkers-and-chess",
-    "storage_bucket": "checkers-and-chess.appspot.com"
+    "project_number": "887992887799",
+    "project_id": "checki-fee94",
+    "storage_bucket": "checki-fee94.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:925942547210:android:f41270560851a0e8",
+        "mobilesdk_app_id": "1:887992887799:android:1f7c9a33d76f7408cbe6f2",
         "android_client_info": {
-          "package_name": "com.example.guanghuili.checkesandchess"
+          "package_name": "com.lemon.check"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "925942547210-e08n6du8dncv0lrhtcvjp2dcipptm6mq.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.guanghuili.checkesandchess",
-            "certificate_hash": "b4f7780169a6c2ab39aec03cbe1679eb964b66ec"
-          }
-        },
-        {
-          "client_id": "925942547210-67l27ct9klaqg6v34e7opd1ser9jv8cl.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCgfArZKptQiRxEcpyOU38kLSFjo300qLU"
+          "current_key": "AIzaSyDhlA6FnSLJ4XCNv1IZgRZfAFUkNvy5u7g"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "925942547210-67l27ct9klaqg6v34e7opd1ser9jv8cl.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:925942547210:android:83f88d0b9d9c2c23",
-        "android_client_info": {
-          "package_name": "com.example.guanghuili.checkesandchess.Checkers"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "925942547210-cc3tpqkt47ccemnto71o8ar35q4mi9ib.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.guanghuili.checkesandchess.Checkers",
-            "certificate_hash": "b4f7780169a6c2ab39aec03cbe1679eb964b66ec"
-          }
-        },
-        {
-          "client_id": "925942547210-67l27ct9klaqg6v34e7opd1ser9jv8cl.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCgfArZKptQiRxEcpyOU38kLSFjo300qLU"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "925942547210-67l27ct9klaqg6v34e7opd1ser9jv8cl.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": []
         }
       }
     }

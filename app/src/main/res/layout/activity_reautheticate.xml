@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.ReauthenticateActivity">
+
+
+    <EditText
+        android:id="@+id/editTextEmaill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:visibility="invisible"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonReauthenticate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re-authenticate"
+        android:background="@drawable/gray_bg"
+        android:backgroundTint="#AEEA00"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15sp"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/buttonDeleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AEEA00"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15sp"
+        android:background="@drawable/gray_bg"
+        android:text="Delete Account"
+        android:layout_marginTop="24dp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

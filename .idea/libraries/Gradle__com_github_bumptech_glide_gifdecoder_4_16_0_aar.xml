@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bumptech.glide:gifdecoder:4.16.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/13f53cc2d9eb5fc9b3704623a7cfcccd/transformed/jetified-gifdecoder-4.16.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/13f53cc2d9eb5fc9b3704623a7cfcccd/transformed/jetified-gifdecoder-4.16.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/13f53cc2d9eb5fc9b3704623a7cfcccd/transformed/jetified-gifdecoder-4.16.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.16.0/995cd18ac6153428afef1553d7864853b43a0abd/gifdecoder-4.16.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.16.0/883cb008587be954f48fffa242801ba5a6d5cfe5/gifdecoder-4.16.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

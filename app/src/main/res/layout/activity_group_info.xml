@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6C8ED"
+    tools:context=".Activities.GroupInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Group Header Section -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/group_header_bg"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/groupIconIv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_group"
+                android:scaleType="centerInside"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/grpTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Group Title"
+                android:textColor="#F8F8F5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- Description and Created by Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/group_info_bg"
+            android:padding="16dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/descriptionTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The description of the group"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/createdByTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:text="created by"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <!-- Edit Group and Leave Group Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/editGroupTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit Group"
+                android:textColor="#F6F6F3"
+                android:background="@drawable/input_add_post_bg"
+                android:backgroundTint="#00ACC1"
+                android:drawableStart="@drawable/ic_edit_white"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/leave_group"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/input_add_post_bg"
+                android:backgroundTint="#B71C1C"
+                android:drawableStart="@drawable/ic_exit"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Leave"
+                android:textColor="#F8F5F6"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Share Group Link Button -->
+        <Button
+            android:id="@+id/shareGroupBtn_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Group Link"
+            android:textColor="#F4F0F4"
+            android:background="@drawable/input_add_post_bg"
+            android:backgroundTint="#558B2F"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/participantsBtn"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#1E88E5"
+            android:textColor="#F8F5F6"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="@drawable/input_add_post_bg"
+            android:text="Group Members" />
+
+        <Button
+            android:id="@+id/admob_btn"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#FDD835"
+            android:textColor="#F8F5F6"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textAllCaps="false"
+            android:background="@drawable/input_add_post_bg"
+            android:text="Enter Your Payment Details Here.." />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

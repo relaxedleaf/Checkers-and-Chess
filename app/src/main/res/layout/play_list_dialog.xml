@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select playlist"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/black"
+        android:id="@+id/text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="-1dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/input_playlist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/input_add_post_bg"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Enter New Playlist"
+            android:inputType="textCapSentences"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_bg"
+            android:text="Add"
+            android:backgroundTint="#43A047"
+            android:textColor="#EEEBEF"
+            android:textSize="19dp"
+            android:padding="4dp"
+            android:minWidth="66dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_light"
+            android:id="@+id/txt_add"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Or)"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rrecyclerView"
+                android:padding="5dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <!-- Play/Pause Button -->
+    <ImageView
+        android:id="@+id/playPauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/play" />
+
+    <!-- Bottom Controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <!-- Loading Bar (SeekBar) -->
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:thumb="@drawable/exo_controls_seekbar_thumb"
+            android:progressDrawable="@drawable/exo_controls_seekbar_progress"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Top Row: Current Time, Video Length -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <!-- Current Time -->
+            <TextView
+                android:id="@+id/text_current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                android:text="0:00"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <!-- Video Length -->
+            <TextView
+                android:id="@+id/text_video_length"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                android:text=" / 0:00"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <!-- View Count Text View -->
+        <TextView
+            android:id="@+id/text_view_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:paddingEnd="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

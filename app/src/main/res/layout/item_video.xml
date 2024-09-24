@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="?attr/selectableItemBackground">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="180dp"
+        android:id="@+id/videoView"
+        android:adjustViewBounds="true"
+        android:background="#B6DAD9D9"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_person1"
+        android:layout_below="@id/videoView"
+        android:layout_margin="10dp"
+        android:id="@+id/group_logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/group_logo"
+        android:layout_below="@id/videoView"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video title"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="15sp"
+            android:id="@+id/video_title"
+            android:includeFontPadding="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group Name"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="12sp"
+                android:id="@+id/group_name"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Views"
+                android:layout_marginStart="15sp"
+                android:fontFamily="@font/roboto_light"
+                android:id="@+id/views_count"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="12sp"
+                android:layout_marginStart="15sp"
+                android:fontFamily="@font/roboto_light"
+                android:id="@+id/date"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

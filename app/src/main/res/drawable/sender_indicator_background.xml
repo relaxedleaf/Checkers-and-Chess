@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the background color of the sender indicator -->
+    <solid android:color="#FFC107" /> <!-- You can replace #FFC107 with any color code -->
+
+    <!-- Set the corner radius to create rounded corners -->
+    <corners android:radius="8dp" /> <!-- You can adjust the radius as per your preference -->
+
+</shape>

@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".Activities.GroupChat">
+
+    <!-- App bar with group info -->
+    <include
+        android:id="@+id/Appa_barG"
+        layout="@layout/appbar_groupinfo"/>
+
+    <!-- RecyclerView for displaying group chat messages -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_group_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/panel_message_input"
+        android:layout_below="@id/Appa_barG"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:padding="8dp" />
+
+    <!-- Panel for message input -->
+    <RelativeLayout
+        android:id="@+id/panel_message_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="@android:color/white">
+
+        <!-- Button for picking images -->
+        <ImageButton
+            android:id="@+id/btn_pick_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/baseline_attach_icon"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <!-- EditText for typing message -->
+        <EditText
+            android:id="@+id/edit_text_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btn_pick_image"
+            android:layout_toStartOf="@id/btn_send"
+        android:hint="Type your message..."
+        android:background="@drawable/input_add_post_bg"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:maxLines="3"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+        <!-- Button for sending message -->
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_send"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    </RelativeLayout>
+
+    <!-- Preview image view -->
+    <ImageView
+        android:id="@+id/imageViewPreview"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_below="@+id/Appa_barG"
+        android:layout_alignBottom="@+id/recycler_view_group_chat"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="92dp"
+        android:visibility="gone"
+        android:layout_marginBottom="54dp"
+        app:srcCompat="@drawable/gradient_connect" />
+
+    <!-- Video view -->
+    <VideoView
+        android:id="@+id/videoView0"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:visibility="gone"
+        android:layout_below="@+id/imageViewPreview"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+  android:id="@+id/first">
+ <item
+   android:id="@+id/home"
+     android:title="Find Groups"
+     android:icon="@drawable/ic_group_info"
+     />
+    <item
+        android:id="@+id/profilee"
+        android:title="Profile"
+        android:icon="@drawable/ic_personaa"
+        />
+    <item
+        android:id="@+id/friend"
+        android:title="Friends"
+        android:icon="@drawable/ic_friends"
+        />
+    <item
+        android:id="@+id/findFriend"
+        android:title="Find Friends"
+        android:icon="@drawable/ic_find_friend"
+        />
+    <item
+        android:id="@+id/chat"
+        android:title="Chats"
+        android:icon="@drawable/ic_chating1"
+        />
+
+
+    <item
+        android:id="@+id/action_create_group"
+        android:title="Create Group"
+        android:icon="@drawable/ic_group"
+        />
+    <item
+        android:id="@+id/action_groupinfo"
+        android:title="Groups"
+        android:icon="@drawable/ic_group_info"
+        />
+   <item
+       android:id="@+id/action_pending"
+       android:title="Friends Requests"
+       android:icon="@drawable/pending_request_ic"
+       />
+    <item
+        android:id="@+id/action_likes"
+        android:title="My Likes"
+        android:icon="@drawable/melting_heart_png"
+        />
+
+</group>
+</menu>

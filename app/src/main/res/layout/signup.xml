@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
 
     <EditText
         android:id="@+id/etNameSignupID"
@@ -67,12 +68,28 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/btn_bg"
         android:text="@string/sign_up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPasswordSignupID"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_terms"
+        app:layout_constraintVertical_bias="0.607" />
 
-</android.support.constraint.ConstraintLayout>
+    <CheckBox
+        android:id="@+id/checkBox_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:paddingEnd="2dp"
+        android:textColor="#FAF8F6"
+        android:background="@drawable/gray_bg"
+        android:backgroundTint="#EF6C00"
+        android:text="Accept Terms And Conditions"
+        app:layout_constraintEnd_toEndOf="@+id/etPasswordSignupID"
+        app:layout_constraintStart_toStartOf="@+id/etPasswordSignupID"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordSignupID" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

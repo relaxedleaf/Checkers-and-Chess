@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Evacheck.iml" filepath="$PROJECT_DIR$/.idea/modules/Evacheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Evacheck.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Evacheck.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Evacheck.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Evacheck.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

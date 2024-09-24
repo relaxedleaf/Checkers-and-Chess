@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Checkers and Chess</string>
+    <string name="app_name">Evacheck</string>
     <string name="sign_up">Sign Up</string>
     <string name="login">Login</string>
     <string name="play_checkers">Play Checkers</string>
     <string name="play_chess">Play Chess</string>
-    <string name="username">Username:</string>
+    <string name="names">Username:</string>
     <string name="room_id">Room ID:\u0020</string>
     <string name="sign_out">Sign Out</string>
     <string name="create_room">Create Room</string>
@@ -16,5 +16,36 @@
     <string name="logo">Logo</string>
     <string name="images">Images</string>
     <string name="sound">Sounds</string>
+
+    <string name="channel_name">Default Channel</string>
+    <string name="channel_description">Default Channel Description</string>
+    <string name="default_notification_channel_id">default_channel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="view_count">Views: %1$d</string>
+    <string-array name="countries_array">
+        <item>All</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Kenya</item>
+        <!-- Add more countries here -->
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lorem_ipsum"> </string>
+
+    <string name="profile_image">Profile Image</string>
+
+
+    <!-- Other string resources -->
+
+    <string name="play_button">Play</string>
+    <string name="title">Welcome to Evacheck!</string>
+
 
 </resources>

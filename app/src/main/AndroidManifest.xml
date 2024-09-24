@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.guanghuili.checkesandchess">
+    package="com.lemon.check.checkesandchess">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
+        android:name=".ApplicationClass"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
@@ -10,7 +31,97 @@
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".Activities.VerificationEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LikesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tools.CropImageActivity"
+            android:exported="false" /> <!-- Theme is optional and only needed if default theme has no action bar. -->
+        <activity
+            android:name="com.canhub.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".Activities.UserDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.TermsAndConditionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FriendRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ReauthenticateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.EnterPaymentDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.GroupParticipants"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.GroupInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.EditGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.GroupChat"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.UserGroupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RewardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ConnectingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ViewGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FindGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.GroupCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ChatUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FullScreenImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ViewFriendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FriendsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FindFriendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="locale|layoutDirection|screenSize|screenLayout|smallestScreenSize|orientation"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,12 +131,28 @@
         <activity android:name=".Checkers.CheckerRoomActivity" />
         <activity android:name=".Checkers.BlackCheckerActivity" />
         <activity android:name=".Checkers.RedCheckerActivity" />
-        <activity android:name=".CreditActivity" />
+        <activity android:name=".HomeActivity" />
         <activity android:name=".Chess.ChessRoomActivity" />
         <activity android:name=".Chess.BlackChessActivity" />
         <activity android:name=".Chess.RedChessActivity" />
-        <activity android:name=".CheckerPractice.CheckerPracticeActivity"></activity>
-        <activity android:name=".ChessPractice.Chess"></activity>
+        <activity android:name=".CheckerPractice.CheckerPracticeActivity" />
+        <activity android:name=".ChessPractice.Chess" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1134102830016252~6610194974" />
     </application>
 
 </manifest>

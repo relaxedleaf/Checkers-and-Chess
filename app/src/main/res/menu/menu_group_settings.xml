@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- menu_group_settings.xml -->
+
+        <item
+            android:id="@+id/action_groupinfo"
+            android:title="Group Info"
+            android:icon="@drawable/ic_edit" />
+
+</menu>

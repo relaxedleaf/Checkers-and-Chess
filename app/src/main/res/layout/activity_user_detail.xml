@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UserDetailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#FF8F00"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:contentDescription="@string/profile_image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_person1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/usernameTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profileImageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="80dp"
+                android:background="@drawable/btn_perform"
+                android:backgroundTint="#84FFFF"
+                android:padding="5dp"
+                android:text="Username"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/profileImageView" />
+
+            <TextView
+                android:id="@+id/statusTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/usernameTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_perform"
+                android:padding="5dp"
+                android:text="profession"
+                android:backgroundTint="#84FFFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/usernameTextView"
+                app:layout_constraintStart_toStartOf="@+id/usernameTextView"
+                app:layout_constraintTop_toBottomOf="@+id/usernameTextView" />
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/statusTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_perform"
+                android:padding="5dp"
+                android:text="county"
+                android:backgroundTint="#84FFFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/statusTextView"
+                app:layout_constraintStart_toStartOf="@+id/statusTextView"
+                app:layout_constraintTop_toBottomOf="@+id/statusTextView" />
+
+
+
+            <Button
+                android:id="@+id/btnUptcoins"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/btn_bg"
+                android:backgroundTint="#FF8F00"
+                android:text="Update"
+                android:textAllCaps="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/statusTextView"
+                app:layout_constraintVertical_bias="0.3" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

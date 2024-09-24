@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,10 +17,10 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017">
+        app:layout_constraintVertical_bias="0.014">
 
         <TextView
             android:id="@+id/tvGreetingID"
@@ -62,12 +62,15 @@
             style="@style/Widget.AppCompat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
             android:background="@drawable/outline"
             android:fontFamily="casual"
             android:text="@string/sign_out"
             android:textStyle="bold"
             android:visibility="invisible" />
+
 
     </RelativeLayout>
 
@@ -155,11 +158,131 @@
         android:layout_marginBottom="8dp"
         android:clickable="true"
         android:fontFamily="casual"
-        android:text="@string/credit"
+        android:text="@string/Home"
+        android:background="@drawable/gray_bg"
+        android:paddingStart="3dp"
+        android:paddingEnd="3dp"
+        android:backgroundTint="#11FF00"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/gray_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/ibtnCheckersID"
+        app:layout_constraintEnd_toStartOf="@+id/tvCheckersID"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RelativeLayout">
+
+
+        <TextView
+            android:id="@+id/Cooins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Coins: 0"
+            android:textColor="#F3EFF6"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/coin"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_coin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/gray_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/ibtnCheckersID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RelativeLayout">
+
+        <ImageView
+            android:id="@+id/rwdBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_treasure" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Delete_Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="19dp"
+        android:text="Delete Account"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingStart="3dp"
+        android:paddingEnd="3dp"
+        android:background="@drawable/gray_bg"
+        android:backgroundTint="#80FF00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtnChessID" />
+
+    <TextView
+        android:id="@+id/textView_terms_and_Conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms And Conditions"
+        android:background="@drawable/gray_bg"
+        android:backgroundTint="#FFD600"
+        android:paddingEnd="2dp"
+        android:paddingStart="2dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCredit"
+        app:layout_constraintEnd_toEndOf="@+id/tvCredit" />
+
+    <TextView
+        android:id="@+id/resend_verification_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/gray_bg"
+        android:backgroundTint="#EA80FC"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="Verification Email Not Received"
+        android:textColor="#F2EFF3"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtnChessID" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_person1" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User details" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnDecline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F5F3F6"
+        android:src="@drawable/decline_clear_png"
+        android:backgroundTint="#F3E49A"
+        android:text="Decline" />
+
+    <ImageButton
+        android:id="@+id/btnAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/favorite_like_svg"
+        android:textColor="#F4EFF4"
+        android:backgroundTint="#F3CBF3"
+        android:text="Accept" />
+
+</LinearLayout>

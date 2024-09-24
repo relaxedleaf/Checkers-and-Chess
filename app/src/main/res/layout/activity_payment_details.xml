@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activities.EnterPaymentDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageViewPayPalLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/paypal"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="PayPal Logo" />
+
+        <EditText
+            android:id="@+id/editTextPayPalEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter PayPal Email"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewMpesaLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/mpesa_logo"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="M-Pesa Logo" />
+
+        <EditText
+            android:id="@+id/editTextMpesaPhoneNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter M-Pesa Phone Number"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSavePaymentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Payment Details"
+        android:textColor="#F4F3F3"
+        android:backgroundTint="#64DD17"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-messaging-directboot:24.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1c010541e878b5c552efb959f912a6c1/transformed/jetified-firebase-messaging-directboot-24.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1c010541e878b5c552efb959f912a6c1/transformed/jetified-firebase-messaging-directboot-24.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-messaging-directboot/24.0.0/4cebdc7686df136635ce7ec5a59d04d1224c10b0/firebase-messaging-directboot-24.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
