@@ -7,7 +7,7 @@ plugins {
 android {
     compileSdk 34
     defaultConfig {
-        namespace  "com.lemon.check.checkesandchess"
+        namespace  "com.lemon.check.Evacheck"
         applicationId "com.lemon.check"
         minSdkVersion 27
         targetSdkVersion 34
