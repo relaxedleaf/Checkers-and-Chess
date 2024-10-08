@@ -297,37 +297,120 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6f5754-0ce9-4bb6-9e96-a247197546ff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_onesignal_OneSignal_5_1_21_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_onesignal_core_5_1_21_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_onesignal_in_app_messages_5_1_21_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_onesignal_location_5_1_21_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_onesignal_notifications_5_1_21_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Evacheck.app.unitTest.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/lemon/check/checkesandchess/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/lemon/check/Evacheck/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/GroupChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/GroupChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/GroupInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/GroupInfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/adapters/GroupChatAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/adapters/GroupChatAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_group_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_group_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Accesstoken.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Accesstoken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/CallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/CallActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ChatMyViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ChatMyViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ChatUsersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ChatUsersActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ConnectingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ConnectingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/EarningsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/EarningsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/EditGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/EditGroupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/EnterPaymentDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/EnterPaymentDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/FindFriendActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/FindFriendActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/FindFriendViewHold.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/FindFriendViewHold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/FindGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/FindGroupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/FindGroupViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/FindGroupViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ForgotPasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ForgotPasswordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/FriendMyViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/FriendMyViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/FriendRequestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/FriendRequestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/FriendsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/FriendsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/FullScreenImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/FullScreenImageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/GroupChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/GroupChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/GroupCreateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/GroupCreateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/GroupInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/GroupInfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/GroupParticipants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/GroupParticipants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/LikesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/LikesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ReauthenticateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ReauthenticateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/RewardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/RewardActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/SetupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/SetupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/TermsAndConditionsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/TermsAndConditionsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/UserDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/UserDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/UserGroupsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/UserGroupsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/VerificationEmailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/VerificationEmailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ViewFriendActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ViewFriendActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Activities/ViewGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Activities/ViewGroupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ApplicationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/CheckerPractice/BlackChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/CheckerPractice/BlackChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/CheckerPractice/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/CheckerPractice/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/CheckerPractice/CheckerPracticeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/CheckerPractice/CheckerPracticeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/CheckerPractice/RedChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/CheckerPractice/RedChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/BlackChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/BlackChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/BlackCheckerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/BlackCheckerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/CheckerRoomActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/CheckerRoomActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/NullChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/NullChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/RecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/RecyclerViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/RedChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/RedChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/RedCheckerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/RedCheckerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Checkers/RoomManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/RoomManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/BlackChessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/BlackChessActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/ChessRoomActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/ChessRoomActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/NullChess.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/NullChess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/RecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/RecyclerViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/RedChessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/RedChessActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Chess/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Chess/RoomManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Checkers/RoomManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Chess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/ChessPractice/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/ChessPractice/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/LocaleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/LocaleManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/MyFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/MyFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/NotificationPermissionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/NotificationPermissionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/PlayerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/PlayerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Utils/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Utils/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Utils/Friends.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Utils/Friends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Utils/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Utils/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Utils/InterfaceJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Utils/InterfaceJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Utils/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Utils/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Utils/ReplyMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Utils/ReplyMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/Utils/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/Utils/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/adapters/GroupChatAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/adapters/GroupChatAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/adapters/GroupParticipantsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/adapters/GroupParticipantsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/adapters/UserGroupsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/adapters/UserGroupsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/models/AdMobIdModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/models/AdMobIdModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/models/GroupChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/models/GroupChatMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/models/GroupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/models/GroupModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/models/ModelGroupChats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/models/ModelGroupChats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/models/PlaylistModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/models/PlaylistModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/models/VideoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/models/VideoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/stati/StaticData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/stati/StaticData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/checkesandchess/tools/CropImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lemon/check/Evacheck/tools/CropImageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/lemon/check/checkesandchess/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/lemon/check/Evacheck/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,7 +420,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\User\.android\avd\Pixel_7_Pro_API_31.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[085361928R0L182B]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -2746,45 +2829,48 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;ApkExportedModule&quot;: &quot;Android-Studio-Checkers-And-Chess-Online.app&quot;,
-    &quot;BundleExportedModule&quot;: &quot;Android-Studio-Checkers-And-Chess-Online.app&quot;,
-    &quot;DEBUGGABLE_DEVICE&quot;: &quot;itel_mobile_limited-itel_p661w-085361928R0L182B&quot;,
-    &quot;DEBUGGABLE_PROCESS&quot;: &quot;com.lemon.check&quot;,
-    &quot;DEBUGGER_ID&quot;: &quot;Java&quot;,
-    &quot;ExportApk.ApkPathForAndroid-Studio-Checkers-And-Chess-Online.app&quot;: &quot;C:\\Users\\User\\APK.Check&quot;,
-    &quot;ExportBundle.BundlePathForAndroid-Studio-Checkers-And-Chess-Online.app&quot;: &quot;C:\\Users\\User\\BADO&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SHOW_ALL_PROCESSES&quot;: &quot;false&quot;,
-    &quot;android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout/2.1.4/27e12209e529970f69bc817f349c247ef238fae7/constraintlayout-2.1.4-sources.jar!/androidx/constraintlayout/widget/ConstraintLayout.java_SELECTED&quot;: &quot;ConstraintLayout&quot;,
-    &quot;android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.1.1/d95f7d9cd7d95cc0c038bbcf9c65f521b56fee55/drawerlayout-1.1.1-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java_SELECTED&quot;: &quot;DrawerLayout&quot;,
-    &quot;android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.3.2/7bc0f04ccbe0159dc303408af769dc1bbb80d584/recyclerview-1.3.2-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED&quot;: &quot;RecyclerView&quot;,
-    &quot;android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.11.0/47456a5ab79e72baca757532823ea1fa08e001d3/material-1.11.0-sources.jar!/com/google/android/material/navigation/NavigationView.java_SELECTED&quot;: &quot;NavigationView&quot;,
-    &quot;android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.1.0/e5635e59d66b172f3e99c6a7044dc9535c95d180/circleimageview-3.1.0-sources.jar!/de/hdodenhof/circleimageview/CircleImageView.java_SELECTED&quot;: &quot;CircleImageView&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/User/AndroidStudioProjects/Android-Studio-Checkers-And-Chess-Online/app/src/main/res/drawable&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/AndroidStudioProjects/Evacheck&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;true&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "ApkExportedModule": "Android-Studio-Checkers-And-Chess-Online.app",
+    "BundleExportedModule": "Android-Studio-Checkers-And-Chess-Online.app",
+    "DEBUGGABLE_DEVICE": "itel_mobile_limited-itel_p661w-085361928R0L182B",
+    "DEBUGGABLE_PROCESS": "com.lemon.check",
+    "DEBUGGER_ID": "Java",
+    "ExportApk.ApkPathForAndroid-Studio-Checkers-And-Chess-Online.app": "C:\\Users\\User\\APK.Check",
+    "ExportBundle.BundlePathForAndroid-Studio-Checkers-And-Chess-Online.app": "C:\\Users\\User\\BADO",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHOW_ALL_PROCESSES": "false",
+    "android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout/2.1.4/27e12209e529970f69bc817f349c247ef238fae7/constraintlayout-2.1.4-sources.jar!/androidx/constraintlayout/widget/ConstraintLayout.java_SELECTED": "ConstraintLayout",
+    "android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.1.1/d95f7d9cd7d95cc0c038bbcf9c65f521b56fee55/drawerlayout-1.1.1-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java_SELECTED": "DrawerLayout",
+    "android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.3.2/7bc0f04ccbe0159dc303408af769dc1bbb80d584/recyclerview-1.3.2-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED": "RecyclerView",
+    "android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.11.0/47456a5ab79e72baca757532823ea1fa08e001d3/material-1.11.0-sources.jar!/com/google/android/material/navigation/NavigationView.java_SELECTED": "NavigationView",
+    "android-custom-viewC:/Users/User/.gradle/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.1.0/e5635e59d66b172f3e99c6a7044dc9535c95d180/circleimageview-3.1.0-sources.jar!/de/hdodenhof/circleimageview/CircleImageView.java_SELECTED": "CircleImageView",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/User/AndroidStudioProjects/Android-Studio-Checkers-And-Chess-Online/app/src/main/res/drawable",
+    "last_opened_file_path": "C:/Users/User/AndroidStudioProjects/Evacheck",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "show.do.not.copy.http.proxy.settings.to.gradle": "true",
+    "show.migrate.to.gradle.popup": "false"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ExportApk.BuildVariants&quot;: [
-      &quot;release&quot;
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="android.template.-89289629">
       <recent name="com.lemon.check.checkesandchess" />

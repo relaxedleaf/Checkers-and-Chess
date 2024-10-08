@@ -4,8 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/02c3884a62da7b23260abdec4ee168a2/transformed/jetified-firebase-components-18.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02c3884a62da7b23260abdec4ee168a2/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/02c3884a62da7b23260abdec4ee168a2/transformed/jetified-firebase-components-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02c3884a62da7b23260abdec4ee168a2/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

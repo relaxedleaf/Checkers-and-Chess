@@ -4,8 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7b6aea5fb40b444b3ec773651d4fe4b0/transformed/jetified-firebase-appcheck-18.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7b6aea5fb40b444b3ec773651d4fe4b0/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7b6aea5fb40b444b3ec773651d4fe4b0/transformed/jetified-firebase-appcheck-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7b6aea5fb40b444b3ec773651d4fe4b0/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
