@@ -1,8 +1,7 @@
+
 package com.lemon.check.checkesandchess.adapters;
-
-import static androidx.core.content.ContextCompat.startActivity;
-
 import android.content.Context;
+
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
@@ -20,7 +19,6 @@ import com.google.android.exoplayer2.ExoPlayer;
 import com.google.android.exoplayer2.MediaItem;
 import com.google.android.exoplayer2.Player;
 import com.google.android.exoplayer2.ui.PlayerView;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -28,11 +26,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ServerValue;
 import com.google.firebase.database.ValueEventListener;
 import com.lemon.check.checkesandchess.Activities.FullScreenImageActivity;
-import com.lemon.check.checkesandchess.Activities.ViewFriendActivity;
 import com.lemon.check.checkesandchess.R;
 import com.lemon.check.checkesandchess.models.GroupChatMessage;
-
-
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -43,9 +38,12 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.ViewHolder> {
 
-    private Context context;
+    private final Context context;
+    private final List<GroupChatMessage> messagesList;
+    private OnMessageLongClickListener longClickListener;
 
-    private static List<GroupChatMessage> messagesList;
+    // Store ExoPlayer instance
+    private ExoPlayer player;
 
     public GroupChatAdapter(Context context, List<GroupChatMessage> messagesList) {
         this.context = context;
@@ -56,8 +54,6 @@ public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.View
         void onMessageLongClicked(GroupChatMessage message);
     }
 
-    private OnMessageLongClickListener longClickListener;
-
     public void setOnMessageLongClickListener(OnMessageLongClickListener listener) {
         this.longClickListener = listener;
     }
@@ -67,8 +63,6 @@ public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.View
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_group_chat_message, parent, false);
         return new ViewHolder(view);
-
-
     }
 
     @Override
@@ -77,32 +71,37 @@ public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.View
         holder.textMessage.setText(message.getMessage());
         holder.textTimestamp.setText(formatTimestamp(message.getTimestamp()));
 
-
+        // Handle message click events
         holder.imageMessage.setOnClickListener(v -> {
-            // Handle image click event
-            String imageUrl = messagesList.get(position).getImageUrl();
+            String imageUrl = message.getImageUrl();
             Intent intent = new Intent(context, FullScreenImageActivity.class);
             intent.putExtra("imageUrl", imageUrl);
             context.startActivity(intent);
         });
 
         holder.itemView.setOnLongClickListener(view -> {
-            // Notify the listener that a message has been long-clicked
             if (longClickListener != null) {
-                longClickListener.onMessageLongClicked(messagesList.get(position));
+                longClickListener.onMessageLongClicked(message);
             }
             return true;
         });
 
-        // Check message type
-        if (message.getMessageType() != null && message.getMessageType().equals("image")) {
+        // Display message based on its type
+        displayMessageBasedOnType(holder, message);
+
+        // Set sender name and profile picture
+        loadSenderInfo(holder, message.getSenderId());
+    }
+
+    private void displayMessageBasedOnType(ViewHolder holder, GroupChatMessage message) {
+        if ("image".equals(message.getMessageType())) {
             holder.textMessage.setVisibility(View.GONE);
             holder.imageMessage.setVisibility(View.VISIBLE);
             holder.videoView.setVisibility(View.GONE);
             holder.playButton.setVisibility(View.GONE);
             holder.text_view_count.setVisibility(View.GONE);
             Glide.with(context).load(message.getImageUrl()).placeholder(R.drawable.gradient_connect).into(holder.imageMessage);
-        } else if (message.getMessageType() != null && message.getMessageType().equals("video")) {
+        } else if ("video".equals(message.getMessageType())) {
             holder.textMessage.setVisibility(View.GONE);
             holder.imageMessage.setVisibility(View.GONE);
             holder.videoView.setVisibility(View.VISIBLE);
@@ -110,7 +109,7 @@ public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.View
             holder.text_view_count.setVisibility(View.VISIBLE);
             holder.text_view_count.setText("Views: " + message.getViewCount());
             setupVideoPlayer(holder, message);
-        } else if (message.getMessageType() != null && message.getMessageType().equals("reply")) {
+        } else if ("reply".equals(message.getMessageType())) {
             holder.textMessage.setVisibility(View.VISIBLE);
             holder.imageMessage.setVisibility(View.GONE);
             holder.videoView.setVisibility(View.GONE);
@@ -124,12 +123,11 @@ public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.View
             holder.playButton.setVisibility(View.GONE);
             holder.text_view_count.setVisibility(View.GONE);
         }
+    }
 
-        // Set sender name and profile picture
-        String senderId = message.getSenderId();
+    private void loadSenderInfo(ViewHolder holder, String senderId) {
         if (senderId != null) {
-            DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("Users").child(message.getSenderId());
-
+            DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("Users").child(senderId);
             userRef.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -139,32 +137,29 @@ public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.View
                         holder.textSenderName.setText(senderName);
                         Glide.with(context).load(profileImageUrl).placeholder(R.drawable.ic_person1).into(holder.imageSenderProfile);
                     }
-                    //return null;
                 }
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError databaseError) {
-                    // Handle error
+                    // Handle error if necessary
                 }
             });
         }
     }
 
     private void setupVideoPlayer(ViewHolder holder, GroupChatMessage message) {
-        ExoPlayer player = new ExoPlayer.Builder(context).build();
+        player = new ExoPlayer.Builder(context).build();
         holder.videoView.setPlayer(player);
 
         MediaItem mediaItem = MediaItem.fromUri(Uri.parse(message.getVideoUrl()));
         player.setMediaItem(mediaItem);
         player.prepare();
 
-        // Set play button click listener
         holder.playButton.setOnClickListener(v -> {
             player.play();
             holder.playButton.setVisibility(View.GONE);
         });
 
-        // Track video view
         player.addListener(new Player.Listener() {
             private boolean isPlaying = false;
 
@@ -185,18 +180,13 @@ public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.View
         String groupId = message.getGroupId();
         String messageId = message.getMessageId();
 
-
-
-        // Log the increment action
         Log.d("GroupChatAdapter", "Incrementing view count for messageId: " + messageId);
 
-        // Increment view count for the message
         DatabaseReference messageRef = FirebaseDatabase.getInstance().getReference("GroupChatMessages").child(messageId);
         messageRef.child("viewCount").setValue(ServerValue.increment(1))
                 .addOnSuccessListener(aVoid -> Log.d("GroupChatAdapter", "Message view count incremented successfully"))
                 .addOnFailureListener(e -> Log.e("GroupChatAdapter", "Failed to increment message view count", e));
 
-        // Increment total views for the group
         DatabaseReference groupRef = FirebaseDatabase.getInstance().getReference("Groups").child(groupId);
         groupRef.child("totalViews").setValue(ServerValue.increment(1));
     }
@@ -229,9 +219,16 @@ public class GroupChatAdapter extends RecyclerView.Adapter<GroupChatAdapter.View
         }
     }
 
-    // Utility method to format timestamp
     private String formatTimestamp(long timestamp) {
         SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, HH:mm", Locale.getDefault());
         return sdf.format(new Date(timestamp));
+    }
+
+    // Method to release ExoPlayer resources
+    public void releasePlayer() {
+        if (player != null) {
+            player.release();
+            player = null;  // Set the player reference to null
+        }
     }
 }

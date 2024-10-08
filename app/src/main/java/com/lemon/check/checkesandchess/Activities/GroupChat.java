@@ -126,8 +126,8 @@ public class GroupChat extends AppCompatActivity implements GroupChatAdapter.OnM
         publishdBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(GroupChat.this, "On the upcoming update", Toast.LENGTH_SHORT).show();
-                //showPublishDialog();
+                //Toast.makeText(GroupChat.this, "On the upcoming update", Toast.LENGTH_SHORT).show();
+                showPublishDialog();
             }
         });
 

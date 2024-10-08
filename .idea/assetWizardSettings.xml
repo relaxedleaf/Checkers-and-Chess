@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/clear/baseline_clear_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/emoji_emotions/baseline_emoji_emotions_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,8 +33,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="f69d89" />
-                            <entry key="outputName" value="decline_clear_png" />
+                            <entry key="color" value="43d911" />
+                            <entry key="outputName" value="emoji_smile" />
                             <entry key="sourceFile" value="C:\Users\User\StudioProjects\Android-Studio-Checkers-And-Chess-Online" />
                           </map>
                         </option>

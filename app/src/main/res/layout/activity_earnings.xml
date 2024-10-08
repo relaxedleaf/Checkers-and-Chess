@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    tools:context=".Activities.EarningsActivity">
+
+        <!-- Group ID Layout -->
+        <LinearLayout
+            android:id="@+id/groupIdLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/groupIdIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_group_primary"
+                    android:contentDescription="Group ID Icon" />
+
+                <TextView
+                    android:id="@+id/groupIdTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Group ID: "
+                    android:textSize="16sp"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Total Views Layout -->
+        <LinearLayout
+            android:id="@+id/totalViewsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/groupIdLayout">
+
+                <ImageView
+                    android:id="@+id/totalViewsIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/frog_png"
+                    android:contentDescription="Views Icon" />
+
+                <TextView
+                    android:id="@+id/totalViewsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Views: "
+                    android:textSize="16sp"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- PayPal Email Layout -->
+        <LinearLayout
+            android:id="@+id/paypalEmailLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/totalViewsLayout">
+
+                <ImageView
+                    android:id="@+id/paypalEmailIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/paypal"
+                    android:contentDescription="PayPal Icon" />
+
+                <TextView
+                    android:id="@+id/paypalEmailTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PayPal Email: "
+                    android:textSize="16sp"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- M-Pesa Phone Number Layout -->
+        <LinearLayout
+            android:id="@+id/mpesaPhoneNumberLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/paypalEmailLayout">
+
+                <ImageView
+                    android:id="@+id/mpesaPhoneIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/mpesa_logo"
+                    android:contentDescription="M-Pesa Icon" />
+
+                <TextView
+                    android:id="@+id/mpesaPhoneNumberTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M-Pesa Phone Number: "
+                    android:textSize="16sp"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Estimated Earnings Layout -->
+        <LinearLayout
+            android:id="@+id/estimatedEarningsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mpesaPhoneNumberLayout">
+
+                <ImageView
+                    android:id="@+id/earningsIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_money"
+                    android:contentDescription="Earnings Icon" />
+
+                <TextView
+                    android:id="@+id/estimatedEarningsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estimated Earnings: "
+                    android:textSize="16sp"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Views to Withdraw EditText -->
+        <EditText
+            android:id="@+id/viewsToWithdrawEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter views to withdraw"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@id/estimatedEarningsLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_default="spread" />
+
+        <!-- Withdraw All CheckBox -->
+        <CheckBox
+            android:id="@+id/withdrawAllCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Withdraw All Views"
+            app:layout_constraintTop_toBottomOf="@id/viewsToWithdrawEditText"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Request Payment Button -->
+        <Button
+            android:id="@+id/requestPaymentButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Request Payment"
+            android:layout_marginTop="16dp"
+            android:textColor="#F4F0F4"
+            android:backgroundTint="@color/buttonColor"
+            app:layout_constraintTop_toBottomOf="@id/withdrawAllCheckBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

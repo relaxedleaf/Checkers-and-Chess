@@ -143,7 +143,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:backgroundTint="#FDD835"
-            android:textColor="#F8F5F6"
+            android:textColor="#716464"
             android:textSize="16sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -151,6 +151,21 @@
             android:textAllCaps="false"
             android:background="@drawable/input_add_post_bg"
             android:text="Enter Your Payment Details Here.." />
+
+        <Button
+            android:id="@+id/payment_btn"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#AEEA00"
+            android:textColor="#514A4D"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textAllCaps="false"
+            android:background="@drawable/input_add_post_bg"
+            android:text="Payment and Earnings Details .." />
 
     </LinearLayout>
 

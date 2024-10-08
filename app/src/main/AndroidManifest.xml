@@ -32,6 +32,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Activities.EarningsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.VerificationEmailActivity"
             android:exported="false" />
         <activity

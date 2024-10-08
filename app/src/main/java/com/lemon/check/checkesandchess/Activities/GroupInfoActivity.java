@@ -27,6 +27,8 @@ public class GroupInfoActivity extends AppCompatActivity {
     private String groupId;
     Button leave_group;
     Button admob_btn;
+
+    Button payment_btn;
     private Button shareGroupBtn_link, participantsBtn ;
     private String createdByUserId;
 
@@ -47,6 +49,7 @@ public class GroupInfoActivity extends AppCompatActivity {
         shareGroupBtn_link = findViewById(R.id.shareGroupBtn_link);
         participantsBtn = findViewById(R.id.participantsBtn);
         admob_btn = findViewById(R.id.admob_btn);
+        payment_btn= findViewById(R.id.payment_btn);
 
 
         // Get the group ID from the intent or any other source
@@ -58,16 +61,35 @@ public class GroupInfoActivity extends AppCompatActivity {
         // Check if the current user is the creator of the group
         if (FirebaseAuth.getInstance().getCurrentUser().getUid().equals(createdByUserId)) {
             admob_btn.setVisibility(View.VISIBLE);
-            admob_btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(GroupInfoActivity.this, EnterPaymentDetailsActivity.class);
-                    startActivity(intent);
-                }
-            });
+
         }else {
             admob_btn.setVisibility(View.GONE);
+
         }
+
+        admob_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GroupInfoActivity.this, EnterPaymentDetailsActivity.class);
+                startActivity(intent);
+            }
+        });
+        payment_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Check if the current user is the creator of the group
+                if (FirebaseAuth.getInstance().getCurrentUser().getUid().equals(createdByUserId)) {
+                    Intent intent = new Intent(GroupInfoActivity.this,EarningsActivity.class);
+                    intent.putExtra("groupId", groupId);
+                    startActivity(intent);
+
+                }else {
+                    Toast.makeText(GroupInfoActivity.this, "Operation Dinied...", Toast.LENGTH_SHORT).show();
+                    payment_btn.setEnabled(false);
+                }
+
+            }
+        });
 
         participantsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
